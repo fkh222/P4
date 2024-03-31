@@ -1,0 +1,23 @@
+body {
+    background-image: url(images/grid.jpg);
+  }
+/** navbar edits */
+.bg-custom {
+    background-color: #27a4c1 !important;
+  }
+  
+.navbar{
+    margin-bottom: 2em;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: aliceblue;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 0.5rem;
+}
