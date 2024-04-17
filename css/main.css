@@ -6,6 +6,17 @@ body {
     background-color: #27a4c1 !important;
   }
   
+/** contact page features */
+.btn-primary {
+    color: #fff;
+    background-color: #fd326f;
+    border-color: #fd326f;
+  }
+.btn-primary:hover {
+    color: #fff;
+    background-color: #27a4c1;
+    border-color: #27a4c1;
+  }
 .navbar{
     margin-bottom: 2em;
 }
