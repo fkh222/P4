@@ -1,6 +1,9 @@
+/** DEVELOPER: Fariha Khan, IS117-004, Spring 2024 */
+
 /** Body */
 body {
     background-image: url(images/grid.jpg);
+    width:99%;
   }
 
 label{
@@ -13,6 +16,20 @@ label{
 .bg-jumbotron h2,h3 {
   color:#90183c;
   font-weight:bolder;
+}
+
+/** Interior Pages*/
+.interior{
+  clear:both;
+  margin:1em;
+  padding: 1em;
+  width:250%;
+  float:left;
+  border-color: #d34a73;
+  border-width: 4px;
+  border-style: dashed;
+  border-radius: 10px;
+  background-color: #aff0fa;
 }
 
 /** Cards */
@@ -38,12 +55,24 @@ label{
   font-weight: bolder;
 }
 
-/** Aside */
-aside {
+/** Sidebar */
+.sidebar {
+  margin:1em;
+  padding: 1em;
   float:left;
-  
+  width:15%;
+  height: 450px;
+  border-color: #d34a73;
+  border-width: 4px;
+  border-style: dashed;
+  border-radius: 10px;
+  background-color: #f6f1ac;
 }
-
+.sidebar h2{
+  text-align:center;
+  color:#d34a73;
+  font-weight: bold;
+}
 
 /** navbar edits */
 .bg-custom {
@@ -74,6 +103,10 @@ input textarea{
   height: 100px;
   overflow-y: scroll;
 }
+.contact_page{
+  clear:right;
+  float:left;
+}
 
 /** footer */
 .footer {
@@ -87,3 +120,6 @@ input textarea{
     padding: 10px;
     font-size: 0.5rem;
 }
+
+/**Media Queries
+@media only screen and (max-width:"720px")
