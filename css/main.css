@@ -42,16 +42,24 @@ label{
 
 /** Cards */
 .card {
-  padding: 2px 16px;
   float:left;
+  width:30%;
   box-shadow: 0 4px 8px 0 rgba(11, 44, 66, 0.459);
   transition: 0.3s;
   width: 30%;
   height:40%;
-  background-color: #f27bb7;
   margin:1em;
+}
+
+.card_container{
+  padding: 1em;
+  background-color: #f27bb7;
   text-align: center;
   color:rgb(48, 13, 13);
+}
+.card img{
+  padding:0;
+  width:100%
 }
 
 .card a{
