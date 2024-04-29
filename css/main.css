@@ -151,6 +151,18 @@ input textarea{
   font-weight:bolder;
 }
 
+.contact_extra{
+  clear:both;
+  margin:1em;
+  padding: 1em;
+  width:300%;
+  float:left;
+  border-color: #d34a73;
+  border-width: 4px;
+  border-style: dashed;
+  border-radius: 10px;
+  background-color: #aff0fa;
+}
 /** footer */
 .footer {
     position: fixed;
