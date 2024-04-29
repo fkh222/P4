@@ -32,6 +32,14 @@ label{
   background-color: #aff0fa;
 }
 
+.interior h2{
+  color:#71152c;
+}
+
+.interior p{
+  color:#71152c;
+}
+
 /** Cards */
 .card {
   padding: 2px 16px;
@@ -45,6 +53,18 @@ label{
   text-align: center;
   color:rgb(48, 13, 13);
 }
+
+.card a{
+  padding-left: 0;
+  padding-right: 0;
+  color:rgb(48, 13, 13);
+  text-decoration: none;
+}
+
+a:hover, a:active {
+    background-color: white;
+}
+
 
 .card:hover {
   box-shadow: 0 8px 16px 0 rgba(246, 72, 130, 0.418);
@@ -72,6 +92,17 @@ label{
   text-align:center;
   color:#d34a73;
   font-weight: bold;
+}
+.sidebar li{
+  color:#d34a73;
+  list-style-type: square;
+}
+
+.sidebar li a{
+  color:#d34a73;
+}
+.sidebar li::marker{
+  color:#d34a73;
 }
 
 /** navbar edits */
@@ -108,6 +139,10 @@ input textarea{
   float:left;
 }
 
+.dropdown-item, .nav-link{
+  font-weight:bolder;
+}
+
 /** footer */
 .footer {
     position: fixed;
@@ -121,5 +156,9 @@ input textarea{
     font-size: 0.5rem;
 }
 
-/**Media Queries
-@media only screen and (max-width:"720px")
+/**Media Queries*/
+@media only screen and (max-width:"767px"){
+  .sidebar{
+    display: none;
+  }
+}
