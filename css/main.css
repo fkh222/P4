@@ -24,6 +24,7 @@ label{
   margin:1em;
   padding: 1em;
   width:250%;
+  height:175%;
   float:left;
   border-color: #d34a73;
   border-width: 4px;
@@ -87,9 +88,9 @@ a:hover, a:active {
 .sidebar {
   margin:1em;
   padding: 1em;
-  float:left;
+  float:right;
   width:15%;
-  height: 450px;
+  height: 175%;
   border-color: #d34a73;
   border-width: 4px;
   border-style: dashed;
